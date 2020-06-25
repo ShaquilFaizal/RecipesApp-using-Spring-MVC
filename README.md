@@ -1,1 +1,1 @@
-# RecipesApp-using-Spring-MVC
+# Spring Boot Recipe Application
