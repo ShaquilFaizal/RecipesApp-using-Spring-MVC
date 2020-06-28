@@ -2,6 +2,8 @@ package com.shaquilfaizal.RecipesApp.repositories;
 
 import org.springframework.data.repository.CrudRepository;
 
-public interface UnitOfMeasureRepository extends CrudRepository<UnitOfMeasureRepository, Long> {
+import com.shaquilfaizal.RecipesApp.domain.UnitOfMeasure;
+
+public interface UnitOfMeasureRepository extends CrudRepository<UnitOfMeasure, Long> {
 
 }
