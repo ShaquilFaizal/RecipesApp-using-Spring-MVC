@@ -3,9 +3,12 @@ package com.shaquilfaizal.RecipesApp.services;
 import java.util.HashSet;
 import java.util.Set;
 
+import org.springframework.stereotype.Service;
+
 import com.shaquilfaizal.RecipesApp.domain.Recipe;
 import com.shaquilfaizal.RecipesApp.repositories.RecipeRepository;
 
+@Service
 public class RecipeServiceImpl implements RecipeService{
 
 	private final RecipeRepository recipeRepository;
